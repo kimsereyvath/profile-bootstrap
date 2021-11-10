@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="bootstrap" viewBox="0 0 118 94">
+          <title>Bootstrap</title>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+        </symbol>
+        <symbol id="facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </symbol>
+        <symbol id="github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </symbol>
+    </svg>
+    <header>
+        <img src="image/hero.gif" style="width: 100%;" class="img-fluid" alt="...">
+        <div class="hero-text">
+            <h3>Hello there, my name is </h3>
+            <div class="name">
+                <h3 style="color: #fa194a; font-weight: 600; font-size: 3vw;">Kim Sereyvath</h3>
+            </div>
+            <h3>I am a programmer.</h3>
+            <button class="more-about-me" onClick="document.getElementById('about').scrollIntoView();"">More about me</button>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <li>
+                <a href="#about">About</a>
+                <a href="#portfolio">Porfolio</a>
+                <a href="#contact">Contact</a>
+            </li>
+        </nav>
+
+        <section id="about" class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <h1 class="about-head">About Me</h1>
+            </div>
+            <div class="row py-lg-5">
+                <div class="col">
+                    <div class="picture-about">
+                        <img src="image/profile.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Here is My Brief Story</h1>
+                    <p class="lead text-brown">If you saw the homepage, you know my name. I am really passionate about programming. It started when I was in high school and it sticks. Currently, I am still a student majoring in Software Engineering at Kirirom Institute of Technology. I am proficient in several programming languages and have experience in several technologies. I also worked on some projects involving various technologies that are trending today.</p>
+                </div>
+            </div>
+
+            <div class="row py-lg-5">
+                <div class="tech-image">
+                    <img src="image/c.png" alt="">
+                    <img src="image/c-sharp.jpg" alt="">
+                    <img src="image/c++.png" alt="">
+                    <img src="image/sketchup.png" alt="">
+                    <img src="image/python.jpg" alt="">
+                    <img src="image/GitHub-logo.png" alt="">
+                    <img src="image/aws.jpg" alt="">
+                    <img src="image/vuejs.png" alt="">
+                    <img src="image/git.png" alt="">
+                    <img src="image/bootstrap.png" alt="">
+                    <img src="image/mongodb.png" alt="">
+                    <img src="image/postgres.png" alt="">
+                    <img src="image/libgdx.png" alt="">
+                    <img src="image/nodejs.png" alt="">
+                    <img src="image/mysql.png" alt="">
+                    <img src="image/java.png" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <section id="portfolio" class="bg-light">
+          <section id="project" class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <h1 class="about-head">My Projects</h1>
+            </div>
+            <div id="carouselControls" class="carousel slide project" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card">
+                        <img src="image/bitroom.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bitroom</h5>
+                          <p class="card-text">Bitroom is a website made with Weebly. It is one of two prototypes of Bitroom, a VC that provide services involving interior design.</p>
+                          <button onclick="location.href='https://bitroom.weebly.com/';" type="button" class="btn btn-sm btn-primary" style="font-size: 1.5em;"">- View -</button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="image/playlist.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Playlist App</h5>
+                          <p class="card-text">Playlist App is a web app made with MEVN technologies. It is a web app that allow user to create playlist of their favourite musics or even video.</p>
+                          <button onclick="location.href='https://github.com/kimsereyvath/plalist.git';" type="button" class="btn btn-sm btn-primary" style="font-size: 1.5em;"">- View -</button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="image/task-manager.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Task Manager</h5>
+                          <p class="card-text">Task Manager is a web app made with MEVN technologies. It is a web app that allow user to create and manage tasks.</p>
+                          <button onclick="location.href='https://github.com/kimsereyvath/task-manager.git';" type="button" class="btn btn-sm btn-primary" style="font-size: 1.5em;"">- View -</button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="image/bitroom-service.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bitroom</h5>
+                            <p class="card-text">Bitroom is a website made with Weebly. It is one of two prototypes of Bitroom, a VC that provide services involving interior design.</p>
+                            <button onclick="location.href='https://bitroomservice.weebly.com/';" type="button" class="btn btn-sm btn-primary" style="font-size: 1.5em;"">- View -</button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="image/no-hide.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">No Where To Hide</h5>
+                          <p class="card-text">No Where To Hide is a game made with Scratch. It is a game that require user to take down the target with a projectile that can bounce.</p>
+                          <button onclick="location.href='https://scratch.mit.edu/projects/564840969';" type="button" class="btn btn-sm btn-primary" style="font-size: 1.5em;"">- View -</button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="image/ghost-hunter.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ghost Hunter</h5>
+                            <p class="card-text">Ghost Hunter is a game made with Scratch. It is a game that require user to eliminate all ghost in the forest before they kill the hunter.</p>
+                            <button onclick="location.href='https://scratch.mit.edu/projects/528072593';" type="button" class="btn btn-sm btn-primary" style="font-size: 1.5em;"">- View -</button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="image/outside-pond.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Outside Pond</h5>
+                          <p class="card-text">Outside Pond is a pond modeling made with sketchup. It features a beautiful structure that can make a home more beautiful.</p>
+                          <button onclick="location.href='https://github.com/kimsereyvath/outside-pond.git';" type="button" class="btn btn-sm btn-primary" style="font-size: 1.5em;"">- View -</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span style="color: black;">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span style="color: black;">Next</span>
+                </button>
+            </div>
+          </section>
+        </section>
+
+        <section id="contact" class="py-5 text-center container">
+          <div class="row py-lg-5">
+              <h1 class="about-head">Contact Me</h1>
+          </div>
+          <div class="row py-lg-5">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <form>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label">Message</label>
+                      <input type="text" style="height: 30vh;" class="form-control" aria-describedby="emailHelp">
+                    </div>
+                  <button type="submit"  class="btn btn-primary">Send</button>
+                </form>
+              </div>
+          </div>
+        </section>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+        <div class="col d-flex align-items-center">
+            <span style="padding-left: 3%;">Kim Sereyvath ©2021</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex" style="padding-right: 3%;">
+            <li class="ms-3"><a class="text-muted" href="https://github.com/kimsereyvath"><svg class="bi" width="35" height="35"><use xlink:href="#github"></use></svg></a></li>
+           
+            <li class="ms-3"><a class="text-muted text-success" href="https://facebook.com/ksvsereyvath"><svg class="bi" width="35" height="35"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
